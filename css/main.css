@@ -1,0 +1,152 @@
+:root {
+    --title-font-family: open sans, -apple-system, BlinkMacSystemFont, segoe ui, helvetica, arial, pingfang sc,
+      source han sans sc, noto sans cjk sc, sarasa gothic sc, microsoft yahei, sans-serif, apple color emoji,
+      segoe ui emoji;
+    --main-font-family: lato, -apple-system, BlinkMacSystemFont, segoe ui, helvetica, arial, pingfang sc,
+      source han sans sc, noto sans cjk sc, sarasa gothic sc, microsoft yahei, sans-serif, apple color emoji,
+      segoe ui emoji;
+    --monospace-font-family: sfmono-regular, consolas, liberation mono, menlo, monospace;
+    --xz: 300px
+  }
+
+  body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #090f1f;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+    font-family: var(--title-font-family);
+    font-size: 30px;
+    font-weight: 700
+}
+
+#name-container[data-v-9af5cd54] {
+    margin-left: var(--xz);
+    margin-top: 20px;
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+#avatar[data-v-9af5cd54] {
+    width: 50x;
+    height: 50px;
+    border-radius: 10%;
+    margin-right: 12px;
+}
+
+h2 {
+    font-family: var(--title-font-family);
+    color: #00c58e;
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+h2 {
+    margin-left: var(--xz);
+    font-size: 25px;
+    padding: 16px 0 4px;
+}
+
+.about {
+    font-size: 20px;
+    margin-left: var(--xz);
+    color: white;
+    font-family: var(--main-font-family);
+}
+
+.container {
+    width: 30%;
+    background-color: #1f2937;
+    border-radius: 20px;
+    margin-left: var(--xz);
+
+ }
+ .hc, .js, .python {
+    font-family: var(--monospace-font-family);
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: white;
+    border-radius: 20px;
+ }
+ .hc {
+    width: 30%;
+    background-color: #e6612d;
+ }
+ .js {
+    width: 60%;
+    background-color: #efd81d;
+ }
+ .python {
+    width: 30%;
+    background-color: #326e9e;
+ }
+ 
+ .pythont, .jst {
+     margin-left: var(--xz);
+     color:white;
+     font-family: var(--monospace-font-family);
+ }
+
+
+
+  .muda {
+      color: #00c58e;
+      text-decoration:none;
+      cursor: url(assents/cursor.png);
+  }
+
+  .muda:hover {
+     color: #07a87b;
+  } 
+
+  .discord {
+    color: white;  
+    width: 3%;
+    float: right;
+    font-size: 25px;
+    margin-top: 5px;
+  }
+
+  .instagram {
+    color: white;  
+    width: 0%;
+    float: right;
+    font-size: 25px;
+    margin-top: 45px;
+  }
+
+  .github {
+    color: white;  
+    width: 0%;
+    float: right;
+    font-size: 25px;
+    margin-top: 85px;
+  }
+
+  .discord:hover, .instagram:hover, .github:hover {
+    color: rgb(160, 160, 160);  
+  }
+  
+  
